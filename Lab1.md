@@ -1,10 +1,11 @@
-**a. Write an SQL Query to find the year from date.**
+**a. Write an SQL Query to find the year from date.** <br>
 
 ```mySQL
 SELECT YEAR(CURDATE()) as year;
 ```
+<br>
 <img width="306" alt="Screenshot 2024-07-26 at 12 31 31 PM" src="https://github.com/user-attachments/assets/d1ee182a-124e-47d9-b88a-e16043e10b92">
-
+<br>
 
 **b. Check whether date passed to Query is the date of a given format or no**
 
