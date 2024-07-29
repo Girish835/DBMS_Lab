@@ -1,0 +1,120 @@
+girishkannapushparaj@Girishs-MacBook-Pro Lab2 % gcc sqlTOc.c 
+girishkannapushparaj@Girishs-MacBook-Pro Lab2 % ./a.out 
+
+Menu:
+a. Insert student
+b. Create GPA column for all students
+c. Delete a course for a student
+d. Insert a new course for a student
+e. Update the name of a course for two students
+f. Calculate GPA of all students
+g. Upgrade the grade point of a students who have go 7 in a course
+h. calculate GPA of students
+i. Genreate report card for given roll number
+X. Exit
+Enter your query: a
+Enter roll no.: 1    
+Enter student name: gk
+Enter student department: cse
+Enter course_name, credits, grade of course 1: dbms 4 10
+Enter course_name, credits, grade of course 2: os 3 8
+Enter course_name, credits, grade of course 3: adsa 3 9 
+Enter course_name, credits, grade of course 4: na 0 0
+Enter your query: a
+Enter roll no.: 2 
+Enter student name: jo 
+Enter student department: cs 
+Enter course_name, credits, grade of course 1: dbms 4 10
+Enter course_name, credits, grade of course 2: os 3 9
+Enter course_name, credits, grade of course 3: adsa 3 7
+Enter course_name, credits, grade of course 4: ppl 2 10
+Enter your query: a
+Enter roll no.: mal
+Enter student name: Enter student department: ece
+Enter course_name, credits, grade of course 1: dsd 4 10
+Enter course_name, credits, grade of course 2: os 3 7
+Enter course_name, credits, grade of course 3: dsp 4 10
+Enter course_name, credits, grade of course 4: na 0 0
+Enter your query: a 
+Enter roll no.: 4   
+Enter student name: push
+Enter student department: chem
+Enter course_name, credits, grade of course 1: orga 4 10
+Enter course_name, credits, grade of course 2: inorga 3 10
+Enter course_name, credits, grade of course 3: fermen 4 10
+Enter course_name, credits, grade of course 4: aiml 2 9
+Enter your query: a
+Enter roll no.: agar
+Enter student name: Enter student department: a
+Enter course_name, credits, grade of course 1: a
+a
+Enter course_name, credits, grade of course 2: a
+Enter course_name, credits, grade of course 3: a
+Enter course_name, credits, grade of course 4: 
+a
+The student should have taken a minimum of 3 courses the previous semester
+Enter your query: Enter roll no.: a
+Enter student name: Enter student department: a
+Enter course_name, credits, grade of course 1: a
+a
+Enter course_name, credits, grade of course 2: a
+Enter course_name, credits, grade of course 3: a
+Enter course_name, credits, grade of course 4: a
+The student should have taken a minimum of 3 courses the previous semester
+Enter your query: Enter roll no.: a
+Enter student name: Enter student department: aa
+Enter course_name, credits, grade of course 1: 
+aa
+ aa
+Enter course_name, credits, grade of course 2: aa
+Enter course_name, credits, grade of course 3: aa
+Enter course_name, credits, grade of course 4: aa
+The student should have taken a minimum of 3 courses the previous semester
+Enter your query: Enter roll no.: Enter student name: Enter student department: x
+Enter course_name, credits, grade of course 1: 1
+2
+3 a
+Enter course_name, credits, grade of course 2: 1 2 5
+Enter course_name, credits, grade of course 3: 3 2 1
+Enter course_name, credits, grade of course 4: 5 6 7
+Enter your query: Invalid query.
+Enter your query: a
+Enter roll no.: 5
+Enter student name: snw
+Enter student department: it
+Enter course_name, credits, grade of course 1: aiml 4 8
+Enter course_name, credits, grade of course 2: comm 3 7
+Enter course_name, credits, grade of course 3: daa 2 10
+Enter course_name, credits, grade of course 4: na 0 0
+Enter your query: b
+gpa is 9.10
+gpa is 9.00
+gpa is 9.18
+gpa is 9.85
+gpa is 8.11
+Enter your query: c
+Enter roll number of the student: 2
+Enter your query: d
+Enter roll number of the student: 2
+Enter new course name, credits, and grade: aiml 3 10
+Enter your query: e
+Enter roll number of first student: 1
+Enter roll number of second student: 2
+Enter old course name: adsa
+Enter new course name: dsa
+Enter your query: f
+Enter your query: g
+Enter your query: h
+Enter your query: i
+Enter roll number of the student: 1
+Report Card for Roll No: 1
+Name: gk
+Department: cse
+Course 1: dbms, Credits: 4, Grade: 10
+Course 2: os, Credits: 3, Grade: 8
+Course 3: dsa, Credits: 3, Grade: 9
+Course 4: na, Credits: 0, Grade: 0
+GPA: 9.10
+Enter your query: X
+Exiting...
+girishkannapushparaj@Girishs-MacBook-Pro Lab2 % 
