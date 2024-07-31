@@ -44,7 +44,7 @@
 **f. Get the database's date** <br>
 
 ```mySQL
-  SELECT CURRENT_TIMESTAMP;
+  SELECT DATABASE();
 ```
 <img width="241" alt="Screenshot 2024-07-26 at 1 04 36 PM" src="https://github.com/user-attachments/assets/09e350d5-e17d-4584-bf71-ff3b36111eb5">
 <br><br>
