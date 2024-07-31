@@ -33,8 +33,6 @@ VALUES
 
 ALTER TABLE Student DROP COLUMN Course2;
 ALTER TABLE Student DROP COLUMN Course3;
-Step 4: Insert two new columns dob and email into the Student table
-The columns dob and email are already added in the initial schema creation.
 ```
 ### d. Change Course1 datatype to VARCHAR(2)
 
